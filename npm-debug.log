@@ -1,0 +1,97 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'git://github.com/zvesp/sails-generate-ng-admin' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /Users/jem/mine/blairlines/package.json
+5 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/ejs/package.json
+6 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/grunt/package.json
+7 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/grunt-contrib-clean/package.json
+8 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/grunt-contrib-coffee/package.json
+9 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/grunt-contrib-concat/package.json
+10 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/grunt-contrib-copy/package.json
+11 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/grunt-contrib-cssmin/package.json
+12 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/grunt-contrib-jst/package.json
+13 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/grunt-contrib-less/package.json
+14 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/grunt-contrib-uglify/package.json
+15 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/grunt-contrib-watch/package.json
+16 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/grunt-sails-linker/package.json
+17 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/grunt-sync/package.json
+18 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/include-all/package.json
+19 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/machinepack-gravatar/package.json
+20 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/machinepack-passwords/package.json
+21 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/ng-admin/package.json
+22 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/rc/package.json
+23 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/sails/package.json
+24 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/sails-disk/package.json
+25 verbose installManyTop reading scoped package data from /Users/jem/mine/blairlines/node_modules/sails-postgresql/package.json
+26 info package.json ejs@0.8.8 No license field.
+27 info package.json grunt@0.4.2 No license field.
+28 info package.json grunt-contrib-clean@0.5.0 No license field.
+29 info package.json grunt-contrib-coffee@0.10.1 No license field.
+30 info package.json grunt-contrib-concat@0.3.0 No license field.
+31 info package.json grunt-contrib-copy@0.5.0 No license field.
+32 info package.json grunt-contrib-cssmin@0.9.0 No license field.
+33 info package.json grunt-contrib-jst@0.6.0 No license field.
+34 info package.json grunt-contrib-less@0.11.1 No license field.
+35 info package.json grunt-contrib-uglify@0.4.1 No license field.
+36 info package.json grunt-contrib-watch@0.5.3 No license field.
+37 info package.json grunt-sync@0.0.8 No license field.
+38 info package.json rc@0.5.5 No license field.
+39 info package.json sails@0.11.0 No license field.
+40 verbose readDependencies loading dependencies from /Users/jem/mine/blairlines/package.json
+41 silly cache add args [ 'git://github.com/zvesp/sails-generate-ng-admin', null ]
+42 verbose cache add spec git://github.com/zvesp/sails-generate-ng-admin
+43 silly cache add parsed spec { raw: 'git://github.com/zvesp/sails-generate-ng-admin',
+43 silly cache add   scope: null,
+43 silly cache add   name: null,
+43 silly cache add   rawSpec: 'git://github.com/zvesp/sails-generate-ng-admin',
+43 silly cache add   spec: 'git://github.com/zvesp/sails-generate-ng-admin.git',
+43 silly cache add   type: 'hosted',
+43 silly cache add   hosted:
+43 silly cache add    { type: 'github',
+43 silly cache add      ssh: 'git@github.com:zvesp/sails-generate-ng-admin.git',
+43 silly cache add      sshUrl: 'git+ssh://git@github.com/zvesp/sails-generate-ng-admin.git',
+43 silly cache add      httpsUrl: 'git+https://github.com/zvesp/sails-generate-ng-admin.git',
+43 silly cache add      gitUrl: 'git://github.com/zvesp/sails-generate-ng-admin.git',
+43 silly cache add      shortcut: 'github:zvesp/sails-generate-ng-admin',
+43 silly cache add      directUrl: 'https://raw.githubusercontent.com/zvesp/sails-generate-ng-admin/master/package.json' } }
+44 verbose addRemoteGit caching git://github.com/zvesp/sails-generate-ng-admin
+45 verbose addRemoteGit git://github.com/zvesp/sails-generate-ng-admin.git is a repository hosted by github
+46 silly tryClone cloning git://github.com/zvesp/sails-generate-ng-admin.git via git://github.com/zvesp/sails-generate-ng-admin.git
+47 verbose tryClone git-github-com-zvesp-sails-generate-ng-admin-git-a64f2091 not in flight; caching
+48 info git [ 'clone',
+48 info git   '--template=/Users/jem/.npm/_git-remotes/_templates',
+48 info git   '--mirror',
+48 info git   'git://github.com/zvesp/sails-generate-ng-admin.git',
+48 info git   '/Users/jem/.npm/_git-remotes/git-github-com-zvesp-sails-generate-ng-admin-git-a64f2091' ]
+49 error git clone --template=/Users/jem/.npm/_git-remotes/_templates --mirror git://github.com/zvesp/sails-generate-ng-admin.git /Users/jem/.npm/_git-remotes/git-github-com-zvesp-sails-generate-ng-admin-git-a64f2091: Cloning into bare repository '/Users/jem/.npm/_git-remotes/git-github-com-zvesp-sails-generate-ng-admin-git-a64f2091'...
+49 error git clone --template=/Users/jem/.npm/_git-remotes/_templates --mirror git://github.com/zvesp/sails-generate-ng-admin.git /Users/jem/.npm/_git-remotes/git-github-com-zvesp-sails-generate-ng-admin-git-a64f2091: fatal: unable to connect to github.com:
+49 error git clone --template=/Users/jem/.npm/_git-remotes/_templates --mirror git://github.com/zvesp/sails-generate-ng-admin.git /Users/jem/.npm/_git-remotes/git-github-com-zvesp-sails-generate-ng-admin-git-a64f2091: github.com[0: 192.30.252.128]: errno=Connection refused
+50 verbose stack Error: Command failed: git clone --template=/Users/jem/.npm/_git-remotes/_templates --mirror git://github.com/zvesp/sails-generate-ng-admin.git /Users/jem/.npm/_git-remotes/git-github-com-zvesp-sails-generate-ng-admin-git-a64f2091
+50 verbose stack Cloning into bare repository '/Users/jem/.npm/_git-remotes/git-github-com-zvesp-sails-generate-ng-admin-git-a64f2091'...
+50 verbose stack fatal: unable to connect to github.com:
+50 verbose stack github.com[0: 192.30.252.128]: errno=Connection refused
+50 verbose stack
+50 verbose stack
+50 verbose stack     at ChildProcess.exithandler (child_process.js:751:12)
+50 verbose stack     at ChildProcess.emit (events.js:110:17)
+50 verbose stack     at maybeClose (child_process.js:1015:16)
+50 verbose stack     at Socket.<anonymous> (child_process.js:1183:11)
+50 verbose stack     at Socket.emit (events.js:107:17)
+50 verbose stack     at Pipe.close (net.js:485:12)
+51 verbose cwd /Users/jem/mine/blairlines
+52 error Darwin 14.5.0
+53 error argv "node" "/usr/local/bin/npm" "install" "git://github.com/zvesp/sails-generate-ng-admin"
+54 error node v0.12.7
+55 error npm  v2.11.3
+56 error code 128
+57 error Command failed: git clone --template=/Users/jem/.npm/_git-remotes/_templates --mirror git://github.com/zvesp/sails-generate-ng-admin.git /Users/jem/.npm/_git-remotes/git-github-com-zvesp-sails-generate-ng-admin-git-a64f2091
+57 error Cloning into bare repository '/Users/jem/.npm/_git-remotes/git-github-com-zvesp-sails-generate-ng-admin-git-a64f2091'...
+57 error fatal: unable to connect to github.com:
+57 error github.com[0: 192.30.252.128]: errno=Connection refused
+58 error If you need help, you may report this error at:
+58 error     <https://github.com/npm/npm/issues>
+59 verbose exit [ 1, true ]
