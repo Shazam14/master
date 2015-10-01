@@ -34,22 +34,24 @@ module.exports.routes = {
 
   '/': {
     view: 'layout'
-
   },
+  
   'user/login':{
     controller: 'userController',
     action: 'login'
   },
-  'GET /default': { view: 'default'},
-  'GET /admin' : {view : 'admin'}, //admin page
-  //'GET /admin': 'NgAdminController.index',
-  /*,
 
-  '/user/new/' : {
+  // 'GET /default': { view: 'default'},
+  // 'GET /signup': { view: 'signup' },
 
-    controller: 'userController',
-    action: 'new'
-  }*/
+  'GET /admin':{
+    view: 'admin'
+  }
+
+
+
+  
+
 
   /***************************************************************************
   *                                                                          *
